@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.headerTitle {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.taskInputSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#addTaskBtn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#addTaskBtn:hover {
+  background-color: #218838;
+}
+
+.summary {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#taskTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#taskTable th,
+#taskTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.taskStatus {
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+
+.taskActions button {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  color: white;
+  background-color: #dc3545;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}
+
+select {
+  padding: 5px;
+}

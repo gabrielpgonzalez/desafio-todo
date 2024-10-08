@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="headerTitle">Todo List</h1>
+      <div class="taskInputSection">
+        <input type="text" id="taskInput" placeholder="New task" />
+        <button id="addTaskBtn">Add</button>
+      </div>
+      <div class="summary">
+        <p>Total: <span id="totalTasks">0</span></p>
+        <p>Completed: <span id="completedTasks">0</span></p>
+      </div>
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Task</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <script src="./assets/js/script.js"></script>
+</html>
